@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.App {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.btn {
+  width: -webkit-fill-available;
+  margin: 1rem;
+}
+
+$body-bg: rgb(31, 30, 30);
+$body-color: rgb(211, 210, 210);
+$secondary: #11af60;
+$font-family-sans-serif: "Ubuntu";
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
